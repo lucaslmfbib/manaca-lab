@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manacá Lab</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #f8fafc;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 60px 25px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-weight: normal;
+      color: #cbd5e1;
+      margin-bottom: 35px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #e2e8f0;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 30px;
+      border-radius: 16px;
+      margin-top: 35px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 15px 28px;
+      background: #22c55e;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .button:hover {
+      background: #16a34a;
+    }
+
+    .secondary {
+      background: #334155;
+      margin-left: 10px;
+    }
+
+    footer {
+      margin-top: 50px;
+      color: #94a3b8;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>🌳 Manacá Lab</h1>
+
+    <h2>Experimentação com IA Brasileira</h2>
+
+    <p>
+      Interface experimental para exploração do Manacá-1B,
+      modelo de linguagem em português brasileiro.
+    </p>
+
+    <div class="card">
+
+      <h2>Sobre o projeto</h2>
+
+      <p>
+        O Manacá Lab é um projeto experimental voltado para estudos
+        em Inteligência Artificial, Ciência da Informação,
+        Recuperação da Informação e Informação Jurídica.
+      </p>
+
+      <p>
+        Desenvolvido por <strong>Lucas Martins</strong><br>
+        Bibliotecário e Advogado
+      </p>
+
+      <a
+        class="button"
+        href="https://colab.research.google.com/github/lucaslmfbib/manaca-lab/blob/main/manaca_lab.ipynb"
+        target="_blank">
+        🚀 Abrir no Google Colab
+      </a>
+
+      <a
+        class="button secondary"
+        href="https://github.com/lucaslmfbib/manaca-lab"
+        target="_blank">
+        Ver código no GitHub
+      </a>
+
+    </div>
+
+    <footer>
+      Manacá Lab • Projeto experimental com IA brasileira
+    </footer>
+
+  </div>
+
+</body>
+</html>
